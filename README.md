@@ -5,7 +5,7 @@ This project is a simple fullstack application with a frontend in React, a backe
 ## Scope: 
 
 - The main idea is to provide a source of information about universities and courses over the world.
-
+<img src="uniall/public/app-screenshot.png" alt="Alt text" width="800" height="600">
 
 - Use this prototype to understand how to build a fullstack application with React, Spring Boot and MySQL.
 
