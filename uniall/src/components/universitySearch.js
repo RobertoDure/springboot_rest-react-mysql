@@ -260,6 +260,9 @@ const SearchUniversity = () => {
         <button type="submit" className="btn btn-primary">Search</button>
       </form>
       <h1>Universities</h1>
+          <h1>
+          </h1>
+          <h7>* Double click on the item list to preview the website:</h7>
     <div className="col-md-6">
       {results.length > 0 && (
         <>
@@ -273,7 +276,7 @@ const SearchUniversity = () => {
            </thead>
            <tbody>
               {currentItems.map((university) => (
-                <tr key={university.id} onDoubleClick={() => handleRowDoubleClick(university)} hint="Double Click to open the university website">
+                <tr key={university.id} onDoubleClick={() => handleRowDoubleClick(university)}>
                   <td>{university.name}</td>
                   <td>{university.country}</td>
                   <td>
